@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <script src="working.js"></script>
+    <button id="change_color" onclick="changecolor()" value="Dark Mode">Dark mode</button>
+ <div class="calculator" id="cal">
+     <form>
+        <input type="text" id="input-field" placeholder="0"><br>
+        <input type="button" class="btn" id="clear" value="c" onclick="calculate('clear')">    
+        <input type="button" class="btn" id="back" value="<--" onclick="calculate('back')">
+        <input type="button" class="btn" id="mod" value="%" onclick="calculate('mod')">
+        <input type="button" class="btn eval" id="plus" value="+" onclick="calculate('plus')"><br>
+        <input type="button" class="btn" id="one" value="1" onclick="calculate('one')">
+        <input type="button" class="btn" id="two" value="2" onclick="calculate('two')">
+        <input type="button" class="btn" id="three" value="3" onclick="calculate('three')">
+        <input type="button" class="btn eval" id="minus" value="-" onclick="calculate('minus')"><br>
+        <input type="button" class="btn" id="four" value="4" onclick="calculate('four')">
+        <input type="button" class="btn" id="five" value="5" onclick="calculate('five')">
+        <input type="button" class="btn" id="six" value="6" onclick="calculate('six')">
+        <input type="button" class="btn eval" id="multi" value="*" onclick="calculate('multi')"><br>
+        <input type="button" class="btn" id="seven" value="7" onclick="calculate('seven')">
+        <input type="button" class="btn" id="eight" value="8" onclick="calculate('eight')">
+        <input type="button" class="btn" id="nine" value="9" onclick="calculate('nine')">
+        <input type="button" class="btn eval" id="divide" value="/" onclick="calculate('divide')"><br>
+        <input type="button" class="btn" id="zero" value="0" onclick="calculate('zero')">
+        <input type="button" class="btn" id="dot" value="." onclick="calculate('dot')">
+        <input type="button" class="btn" id="equal" value="=" onclick="calculate('equal')">
+</form>
+ </div>
+<!-- div class="calculator2" id="cal2">
+    <form>
+        <input type="text" id="input-field" value="0"><br>
+        <input type="button" class="btn" value="c">
+        <input type="button" class="btn" value="x">
+        <input type="button" class="btn" value="%">
+        <input type="button" class="btn eval" value="+"><br>
+        <input type="button" class="btn" value="1">
+        <input type="button" class="btn" value="2">
+        <input type="button" class="btn" value="3">
+        <input type="button" class="btn eval" value="-"><br>
+        <input type="button" class="btn" value="4">
+        <input type="button" class="btn" value="5">
+        <input type="button" class="btn" value="6">
+        <input type="button" class="btn eval" value="*"><br>
+        <input type="button" class="btn" value="7">
+        <input type="button" class="btn" value="8">
+        <input type="button" class="btn" value="9">
+        <input type="button" class="btn eval" value="/"><br>
+        <input type="button" class="btn" value="0">
+        <input type="button" class="btn" value=".">
+        <input type="button" class="btn" id="equal" value="=">
+    </form>
+</div> -->
+
+</body>
+</html>

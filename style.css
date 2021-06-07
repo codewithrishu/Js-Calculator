@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to right , #218f86 , #2cb8ab);
+    height: 100%;
+}
+#change_color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    margin-top: 10%;
+    border-radius: 50px;
+    background: black;
+    color: #218f86;
+    border-style: none;
+    
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+   border: none;
+    background-color: #020808;
+    margin: auto;
+     margin-top: 50px;
+     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+     border-radius: 10px;
+     overflow: hidden;
+}
+#input-field{
+    width: 100%;
+    height: 100px;
+     background-color: #020808;
+     border-style: none;
+display: inline-block;
+color: white;
+
+}
+
+.btn{
+    color: white;
+width: 50px;
+height: 50px;
+border-style: none;
+display: inline-block;
+background: linear-gradient(125deg , #030909 , #142d38);
+margin: 1px;
+
+}
+
+.eval{
+    background: linear-gradient(to bottom ,#05a898be  ,#348878 );
+    
+}
+#equal{
+    width: 105px;
+    background: #348878;
+   
+}
+
+/* 
+.calculator2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+   border: none;
+    background-color: 	#E8E8E8;
+    margin: auto;
+     margin-top: 50px;
+     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+     border-radius: 10px;
+     overflow: hidden;
+     
+     
+}
+.calculator2 #input-field{
+    width: 100%;
+    height: 100px;
+     background-color: transparent;
+     border-style: none;
+display: inline-block;
+color: black;
+
+}
+
+.calculator2 .btn{
+    color: black;
+width: 50px;
+height: 50px;
+border-style: none;
+display: inline-block;
+margin: 1px;
+   border: 1px solid #e2e2e2;
+    background:#D3D3D3
+}
+
+.calculator2 .eval{
+   
+     background-color: #c2efec;
+    
+}
+.calculator2 #equal{
+    width: 105px;
+    background: #348878;
+   
+} */
